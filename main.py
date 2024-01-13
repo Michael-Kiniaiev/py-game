@@ -17,7 +17,7 @@ CREATE_ENEMY = pygame.USEREVENT +1
 CREATE_BONUS = pygame.USEREVENT +2
 
 pygame.time.set_timer(CREATE_ENEMY, 1500)
-pygame.time.set_timer(CREATE_BONUS, 1500)
+pygame.time.set_timer(CREATE_BONUS, 500)
 
 main_display = pygame.display.set_mode((WIDTH, HEIGHT))
 
