@@ -39,10 +39,10 @@ PLAYER_IMAGES = os.listdir(IMAGE_PATH)
 player_size = (10, 10)
 player = pygame.image.load('py-game/player.png').convert_alpha()
 player_rect = player.get_rect()
-player_move_down = [0, 4]
-player_move_up = [-0, -4]
-player_move_right = [4, 0]
-player_move_left = [-4, -0]
+player_move_down = [0, 6]
+player_move_up = [-0, -6]
+player_move_right = [6, 0]
+player_move_left = [-6, -0]
 enemy_sizes = ((40, 20), (120, 60), (60, 30), (80, 40))
 
 def create_enemy():
